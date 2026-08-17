@@ -5,32 +5,32 @@
 
 const ITEM_DB = {
   normal: [
-    {name:"狼毫笔",type:"属性增益",effect:"书画+5"},
-    {name:"玉笛",type:"属性增益",effect:"乐舞+5"},
-    {name:"银针套",type:"属性增益",effect:"医药+5"},
-    {name:"算盘珠",type:"属性增益",effect:"算数+5"},
-    {name:"鲁班尺",type:"属性增益",effect:"制造+5"},
-    {name:"菜刀",type:"属性增益",effect:"烹饪+5"},
-    {name:"策论集",type:"属性增益",effect:"策论+5"},
-    {name:"铁胎弓",type:"属性增益",effect:"骑射+5"},
-    {name:"罗盘",type:"属性增益",effect:"堪舆+5"},
-    {name:"西域词典",type:"属性增益",effect:"习语+5"},
-    {name:"花剪",type:"属性增益",effect:"花艺+5"},
-    {name:"茶经",type:"属性增益",effect:"茶道+5"},
+    {name:"狼毫笔",type:"属性增益",effect:"书画+10"},
+    {name:"玉笛",type:"属性增益",effect:"乐舞+10"},
+    {name:"银针套",type:"属性增益",effect:"医药+10"},
+    {name:"算盘珠",type:"属性增益",effect:"算数+10"},
+    {name:"鲁班尺",type:"属性增益",effect:"制造+10"},
+    {name:"菜刀",type:"属性增益",effect:"烹饪+10"},
+    {name:"策论集",type:"属性增益",effect:"策论+10"},
+    {name:"铁胎弓",type:"属性增益",effect:"骑射+10"},
+    {name:"罗盘",type:"属性增益",effect:"堪舆+10"},
+    {name:"西域词典",type:"属性增益",effect:"习语+10"},
+    {name:"花剪",type:"属性增益",effect:"花艺+10"},
+    {name:"茶经",type:"属性增益",effect:"茶道+10"},
     {name:"强身丹",type:"属性增益",effect:"体质+3"},
     {name:"银票",type:"属性增益",effect:"银两+20"},
     {name:"玉佩",type:"属性增益",effect:"好感+5（通用）"}
   ],
   rare: [
     {name:"玉簪",type:"属性增益",effect:"全属性+10",rarity:"rare"},
-    {name:"先帝的墨宝",type:"属性增益",effect:"策论+20",rarity:"rare"},
+    {name:"先帝的墨宝",type:"属性增益",effect:"策论+40",rarity:"rare"},
     {name:"太后的懿旨",type:"属性增益",effect:"可调用一次太后势力",rarity:"rare"},
     {name:"玄机子的天机符",type:"属性增益",effect:"关键时刻挡一次灾",rarity:"rare"},
-    {name:"秦毅的佩刀",type:"属性增益",effect:"骑射+10，秦霜好感+5",rarity:"rare"}
+    {name:"秦毅的佩刀",type:"属性增益",effect:"骑射+420，秦霜好感+5",rarity:"rare"}
   ],
   consumable: [
     {name:"金疮药",type:"消耗品",effect:"恢复体质5点"},
-    {name:"凝神汤",type:"消耗品",effect:"临时策论+10"},
+    {name:"凝神汤",type:"消耗品",effect:"策论+10"},
     {name:"忘川草解药",type:"消耗品",effect:"解忘川草毒（关键）"},
     {name:"瘟疫解药",type:"消耗品",effect:"治瘟疫（第三卷关键）"},
     {name:"雪参",type:"消耗品",effect:"珍稀药材，可做解药或药膳"},
